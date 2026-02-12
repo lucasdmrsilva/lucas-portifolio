@@ -1,9 +1,3 @@
-#about {
-    background-color: #303030;
-    padding-bottom: 180px;
-    width: 100%;
-}
-
 #about .subtitle {
     margin-top: -30px;
 }
@@ -27,7 +21,7 @@
     max-width: 350px;
     width: 100%;
     height: auto;
-    opacity: 0.75;
+    opacity: 0.9;
     animation: float 4s ease-in-out infinite;
     transition: opacity .3s ease;
 }
@@ -42,7 +36,6 @@
 
 .info-about {
     font-size: 18px;
-    color: #acacac;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +43,7 @@
 }
 
 .info-about p {
+    color: rgba(255, 255, 255, 0.85);
     text-align: justify;
     margin-bottom: 20px;
     font-weight: 500;
@@ -96,4 +90,10 @@
         padding-right: 20px;
     }
 
+}
+
+@media (max-width: 600px) {
+    #about .subtitle {
+        margin-top: -30px;
+    }
 }
