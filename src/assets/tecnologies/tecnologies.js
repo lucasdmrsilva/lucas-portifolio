@@ -4,7 +4,6 @@ import bootstrapIcon from './bootstrap.svg';
 import javascriptIcon from './javascript.svg';
 import reactIcon from './react.svg';
 import typescriptIcon from './typescript.png';
-import nodejsIcon from './node_JS.png';
 import gitIcon from './git.svg';
 import githubIcon from './github.svg';
 import sqlIcon from './sql.svg';
@@ -18,7 +17,6 @@ export const techIcons = {
     javascript: javascriptIcon,
     react: reactIcon,
     typescript: typescriptIcon,
-    node: nodejsIcon,
     git: gitIcon,
     github: githubIcon,
     sql: sqlIcon,

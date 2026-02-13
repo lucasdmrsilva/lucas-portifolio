@@ -10,13 +10,26 @@
     align-items: flex-start;
 }
 
+.info-hero > div {
+    width: 100%;
+}
+
 .info-hero h1 {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.85);
     line-height: 50px;
+    display: block;
+    min-height: 200px;
 }
 
-.info-hero span {
+.typing-container {
+    display: inline-block;
+    min-width: 17ch;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.info-hero h1 > span:not(.typing-container):not(.msg) {
     background: linear-gradient(
         90deg,
         rgba(26, 127, 243, 1) 0%,
@@ -32,8 +45,9 @@
 .msg {
     display: inline-block;
     overflow: hidden;
-    border-right: 2px solid #ffffffc1; /* coloca uma linha ao final do texto */
     white-space: nowrap; 
+    border-right: 2px solid #ffffffc1; /* coloca uma linha ao final do texto */
+    width: 0;
     animation: typing 5s steps(20, end) infinite, blink .6s step-end infinite; /* animação para o efeito de digitação infinita */
     background: linear-gradient(
         90deg,
@@ -70,10 +84,10 @@
 
 .btn-hero {
     display: flex;
-    justify-content: space-between;;
+    justify-content: flex-start;
     order: 2;
     margin-top: 30px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .btn-hero button {
