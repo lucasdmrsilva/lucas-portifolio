@@ -137,6 +137,7 @@
 .foto-avatar img {
     width: 100%;
     object-fit: cover;
+    margin-bottom: -10px;
 }
 
 /* Media Queries */
@@ -164,6 +165,7 @@
 
     .btn-hero {
         flex-direction: column;
+        align-items: center;
         margin-top: 60px;
         gap: 30px;
     }

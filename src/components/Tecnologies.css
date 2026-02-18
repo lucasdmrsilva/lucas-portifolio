@@ -38,12 +38,15 @@
 
 @media (max-width: 768px) {
     .container-icons {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+        margin: auto;
     }
 
     .container-icons img {
-        width: 80px;
+        width: 80%;
         height: auto;
     }
 }
@@ -54,11 +57,11 @@
     }
 
     .container-icons {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, auto);
         gap: 15px;
     }
 
     .container-icons img {
-        width: 70px;
+        width: 70%;
     }
 }

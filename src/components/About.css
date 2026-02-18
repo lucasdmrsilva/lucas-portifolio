@@ -72,12 +72,21 @@
 /* Media Queries */
 
 @media (max-width: 1024px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    
     .info-about p {
         font-size: 16px;    
     }
 
     .about-image img {
         max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-content {
